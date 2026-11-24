@@ -1,0 +1,6 @@
+dataset,view_a,view_b,n_scenes_a,n_scenes_b,ranks_a,ranks_b,tau,tau_low,tau_high,p_tau_neg,p_os_better_in_b,p_os_last_a_first_b
+l8biome,all,sparcs,16,78,non-empty > random > CB loss > class-aware > oversampling,oversampling > class-aware > CB loss > non-empty > random,-0.7999999999999999,-1.0,0.6,0.6935,0.916,0.6085
+l8biome,annotated,sparcs,6,78,oversampling > class-aware > CB loss > random > non-empty,oversampling > class-aware > CB loss > non-empty > random,0.7999999999999999,-0.1999999999999999,1.0,0.0365,0.4405,0.0065
+l8biome,all,annotated,16,6,non-empty > random > CB loss > class-aware > oversampling,oversampling > class-aware > CB loss > random > non-empty,-1.0,,,0.621,0.8595,0.365
+l7irish,all,annotated,43,12,non-empty > random > class-aware > CB loss > oversampling,class-aware > CB loss > oversampling > non-empty > random,-0.1999999999999999,-0.7999999999999999,0.7999999999999999,0.398,0.7975,0.236
+l7irish,all,geomaware,43,43,non-empty > random > class-aware > CB loss > oversampling,CB loss > class-aware > non-empty > random > oversampling,0.0,-0.6,1.0,0.235,0.351,0.0585

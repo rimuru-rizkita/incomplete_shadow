@@ -1,0 +1,16 @@
+# Install a CUDA build of PyTorch first (https://pytorch.org), e.g.:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# Exact versions used in the paper: requirements-lock.txt
+torch>=2.1
+torchvision
+torchgeo>=0.8
+segmentation_models_pytorch>=0.6
+timm>=0.9
+rasterio
+pyproj
+numpy
+pandas
+scipy
+statsmodels
+matplotlib
+tabulate

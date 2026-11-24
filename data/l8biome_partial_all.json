@@ -1,0 +1,881 @@
+{
+  "dataset": "l8biome",
+  "mode": "all",
+  "n_scenes": 96,
+  "n_shadow_annotated": 32,
+  "ambig_frac_of_clear_in_unannotated": 1.0,
+  "swath_shadow_recall_annotated": null,
+  "swath_frac_of_clear_annotated": null,
+  "cloud_height_range_m": [
+    200,
+    12000
+  ],
+  "downsample": 4,
+  "buffer_px": 1,
+  "scenes": [
+    {
+      "scene": "LC80420082013220LGN00/LC80420082013220LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 41864930,
+      "cloud_px": 0,
+      "shadow_annotated": false,
+      "ambig_px": 41864930,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC80500092014231LGN00/LC80500092014231LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 782290,
+      "cloud_px": 41095082,
+      "shadow_annotated": false,
+      "ambig_px": 782290,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC80530022014156LGN00/LC80530022014156LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 41876511,
+      "cloud_px": 0,
+      "shadow_annotated": false,
+      "ambig_px": 41876511,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81330312013202LGN00/LC81330312013202LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 32038717,
+      "cloud_px": 9579142,
+      "shadow_annotated": false,
+      "ambig_px": 32038717,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81360302014162LGN00/LC81360302014162LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 9593588,
+      "cloud_px": 31992320,
+      "shadow_annotated": false,
+      "ambig_px": 9593588,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81390292014135LGN00/LC81390292014135LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 26283965,
+      "cloud_px": 15299043,
+      "shadow_annotated": false,
+      "ambig_px": 26283965,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81550082014263LGN00/LC81550082014263LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 0,
+      "cloud_px": 41865070,
+      "shadow_annotated": false,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81570452014213LGN00/LC81570452014213LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 15843961,
+      "cloud_px": 25746835,
+      "shadow_annotated": false,
+      "ambig_px": 15843961,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81640502013179LGN01/LC81640502013179LGN01_fixedmask.TIF",
+      "shadow_px": 1390173,
+      "clear_px": 37061292,
+      "cloud_px": 3040858,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81750432013144LGN00/LC81750432013144LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 37865546,
+      "cloud_px": 0,
+      "shadow_annotated": false,
+      "ambig_px": 37865546,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81930452013126LGN01/LC81930452013126LGN01_fixedmask.TIF",
+      "shadow_px": 3802941,
+      "clear_px": 10098550,
+      "cloud_px": 24779922,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81990402014267LGN00/LC81990402014267LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 5965328,
+      "cloud_px": 35574806,
+      "shadow_annotated": false,
+      "ambig_px": 5965328,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC80070662014234LGN00/LC80070662014234LGN00_fixedmask.TIF",
+      "shadow_px": 1528917,
+      "clear_px": 37937795,
+      "cloud_px": 2100814,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC80160502014041LGN00/LC80160502014041LGN00_fixedmask.TIF",
+      "shadow_px": 6176749,
+      "clear_px": 14772113,
+      "cloud_px": 20606023,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC80200462014005LGN00/LC80200462014005LGN00_fixedmask.TIF",
+      "shadow_px": 3106479,
+      "clear_px": 33510128,
+      "cloud_px": 5010032,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC80500172014247LGN00/LC80500172014247LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 14285037,
+      "cloud_px": 27517969,
+      "shadow_annotated": false,
+      "ambig_px": 14285037,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81170272014189LGN00/LC81170272014189LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 207915,
+      "cloud_px": 41459864,
+      "shadow_annotated": false,
+      "ambig_px": 207915,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81310182013108LGN01/LC81310182013108LGN01_fixedmask.TIF",
+      "shadow_px": 590730,
+      "clear_px": 36191559,
+      "cloud_px": 2117175,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81330182013186LGN00/LC81330182013186LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 990818,
+      "cloud_px": 40765845,
+      "shadow_annotated": false,
+      "ambig_px": 990818,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81720192013331LGN00/LC81720192013331LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 0,
+      "cloud_px": 41774943,
+      "shadow_annotated": false,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81750622013304LGN00/LC81750622013304LGN00_fixedmask.TIF",
+      "shadow_px": 5448843,
+      "clear_px": 33154224,
+      "cloud_px": 2944381,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81800662014230LGN00/LC81800662014230LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 1434205,
+      "cloud_px": 40192911,
+      "shadow_annotated": false,
+      "ambig_px": 1434205,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC82290572014141LGN00/LC82290572014141LGN00_fixedmask.TIF",
+      "shadow_px": 1251224,
+      "clear_px": 17983648,
+      "cloud_px": 22312748,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC82310592014139LGN00/LC82310592014139LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 133243,
+      "cloud_px": 41495949,
+      "shadow_annotated": false,
+      "ambig_px": 133243,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC80290292014132LGN00/LC80290292014132LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 0,
+      "cloud_px": 41683060,
+      "shadow_annotated": false,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC80290372013257LGN00/LC80290372013257LGN00_fixedmask.TIF",
+      "shadow_px": 3124082,
+      "clear_px": 27809671,
+      "cloud_px": 10651111,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC80980712014024LGN00/LC80980712014024LGN00_fixedmask.TIF",
+      "shadow_px": 2587402,
+      "clear_px": 25345093,
+      "cloud_px": 13763822,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81220312014208LGN00/LC81220312014208LGN00_fixedmask.TIF",
+      "shadow_px": 282026,
+      "clear_px": 41039367,
+      "cloud_px": 289707,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81220422014096LGN00/LC81220422014096LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 0,
+      "cloud_px": 41598287,
+      "shadow_annotated": false,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81320352013243LGN00/LC81320352013243LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 28032445,
+      "cloud_px": 13439010,
+      "shadow_annotated": false,
+      "ambig_px": 28032445,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81440462014250LGN00/LC81440462014250LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 0,
+      "cloud_px": 41570169,
+      "shadow_annotated": false,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81490432014141LGN00/LC81490432014141LGN00_fixedmask.TIF",
+      "shadow_px": 38888,
+      "clear_px": 41533837,
+      "cloud_px": 51229,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81510262014139LGN00/LC81510262014139LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 0,
+      "cloud_px": 41667260,
+      "shadow_annotated": false,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81750512013208LGN00/LC81750512013208LGN00_fixedmask.TIF",
+      "shadow_px": 2593904,
+      "clear_px": 14457054,
+      "cloud_px": 24502898,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81820302014180LGN00/LC81820302014180LGN00_fixedmask.TIF",
+      "shadow_px": 584493,
+      "clear_px": 40628485,
+      "cloud_px": 433205,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC82020522013141LGN01/LC82020522013141LGN01_fixedmask.TIF",
+      "shadow_px": 440635,
+      "clear_px": 31651643,
+      "cloud_px": 6642386,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC80010732013109LGN00/LC80010732013109LGN00_fixedmask.TIF",
+      "shadow_px": 1620299,
+      "clear_px": 34271834,
+      "cloud_px": 2580520,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC80320382013278LGN00/LC80320382013278LGN00_fixedmask.TIF",
+      "shadow_px": 271334,
+      "clear_px": 39159552,
+      "cloud_px": 1074460,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC80350192014190LGN00/LC80350192014190LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 15084700,
+      "cloud_px": 26680182,
+      "shadow_annotated": false,
+      "ambig_px": 15084700,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC80630152013207LGN00/LC80630152013207LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 22165567,
+      "cloud_px": 19580741,
+      "shadow_annotated": false,
+      "ambig_px": 22165567,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC80670172014206LGN00/LC80670172014206LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 3001540,
+      "cloud_px": 38731808,
+      "shadow_annotated": false,
+      "ambig_px": 3001540,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC80750172013163LGN00/LC80750172013163LGN00_fixedmask.TIF",
+      "shadow_px": 38763,
+      "clear_px": 38835892,
+      "cloud_px": 45420,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC80760182013170LGN00/LC80760182013170LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 18323635,
+      "cloud_px": 20592327,
+      "shadow_annotated": false,
+      "ambig_px": 18323635,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC80980762014216LGN00/LC80980762014216LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 41789499,
+      "cloud_px": 0,
+      "shadow_annotated": false,
+      "ambig_px": 41789499,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81020802014100LGN00/LC81020802014100LGN00_fixedmask.TIF",
+      "shadow_px": 1007549,
+      "clear_px": 8933594,
+      "cloud_px": 31968271,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81490122013218LGN00/LC81490122013218LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 4283964,
+      "cloud_px": 37506932,
+      "shadow_annotated": false,
+      "ambig_px": 4283964,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81590362014051LGN00/LC81590362014051LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 20023627,
+      "cloud_px": 21533586,
+      "shadow_annotated": false,
+      "ambig_px": 20023627,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81600462013215LGN00/LC81600462013215LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 963386,
+      "cloud_px": 40659288,
+      "shadow_annotated": false,
+      "ambig_px": 963386,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC80010112014080LGN00/LC80010112014080LGN00_fixedmask.TIF",
+      "shadow_px": 1256975,
+      "clear_px": 38233764,
+      "cloud_px": 2161274,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC80060102014147LGN00/LC80060102014147LGN00_fixedmask.TIF",
+      "shadow_px": 4126449,
+      "clear_px": 25245781,
+      "cloud_px": 12315732,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC80211222013361LGN00/LC80211222013361LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 17970709,
+      "cloud_px": 22715697,
+      "shadow_annotated": false,
+      "ambig_px": 17970709,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC80250022014232LGN00/LC80250022014232LGN00_fixedmask.TIF",
+      "shadow_px": 1205018,
+      "clear_px": 7150494,
+      "cloud_px": 32381988,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC80441162013330LGN00/LC80441162013330LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 34538581,
+      "cloud_px": 6632203,
+      "shadow_annotated": false,
+      "ambig_px": 34538581,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC80841202014309LGN00/LC80841202014309LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 40112480,
+      "cloud_px": 422354,
+      "shadow_annotated": false,
+      "ambig_px": 40112480,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81001082014022LGN00/LC81001082014022LGN00_fixedmask.TIF",
+      "shadow_px": 1242859,
+      "clear_px": 40495500,
+      "cloud_px": 1377605,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81321192014054LGN00/LC81321192014054LGN00_fixedmask.TIF",
+      "shadow_px": 9142762,
+      "clear_px": 23354757,
+      "cloud_px": 8129886,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC82001192013335LGN00/LC82001192013335LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 8641198,
+      "cloud_px": 32147533,
+      "shadow_annotated": false,
+      "ambig_px": 8641198,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC82171112014297LGN00/LC82171112014297LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 19220098,
+      "cloud_px": 22992658,
+      "shadow_annotated": false,
+      "ambig_px": 19220098,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC82271192014287LGN00/LC82271192014287LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 33280797,
+      "cloud_px": 7458967,
+      "shadow_annotated": false,
+      "ambig_px": 33280797,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC82320072014226LGN00/LC82320072014226LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 6285272,
+      "cloud_px": 35516151,
+      "shadow_annotated": false,
+      "ambig_px": 6285272,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC80150312014226LGN00/LC80150312014226LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 18444515,
+      "cloud_px": 23189214,
+      "shadow_annotated": false,
+      "ambig_px": 18444515,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC80170312013157LGN00/LC80170312013157LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 0,
+      "cloud_px": 38800224,
+      "shadow_annotated": false,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC80410372013357LGN00/LC80410372013357LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 41198988,
+      "cloud_px": 428123,
+      "shadow_annotated": false,
+      "ambig_px": 41198988,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC80460282014171LGN00/LC80460282014171LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 25208123,
+      "cloud_px": 16443377,
+      "shadow_annotated": false,
+      "ambig_px": 25208123,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC80640452014041LGN00/LC80640452014041LGN00_fixedmask.TIF",
+      "shadow_px": 260154,
+      "clear_px": 40022592,
+      "cloud_px": 1270798,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81180382014244LGN00/LC81180382014244LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 8919847,
+      "cloud_px": 32663821,
+      "shadow_annotated": false,
+      "ambig_px": 8919847,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81620432014072LGN00/LC81620432014072LGN00_fixedmask.TIF",
+      "shadow_px": 1069859,
+      "clear_px": 32051622,
+      "cloud_px": 8431925,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81660432014020LGN00/LC81660432014020LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 41510119,
+      "cloud_px": 0,
+      "shadow_annotated": false,
+      "ambig_px": 41510119,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81770262013254LGN00/LC81770262013254LGN00_fixedmask.TIF",
+      "shadow_px": 2241043,
+      "clear_px": 37964050,
+      "cloud_px": 1544419,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81920192013103LGN01/LC81920192013103LGN01_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 0,
+      "cloud_px": 38940950,
+      "shadow_annotated": false,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81940222013245LGN00/LC81940222013245LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 0,
+      "cloud_px": 41786813,
+      "shadow_annotated": false,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81970242013218LGN00/LC81970242013218LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 18542072,
+      "cloud_px": 23196175,
+      "shadow_annotated": false,
+      "ambig_px": 18542072,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC80120552013202LGN00/LC80120552013202LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 106635,
+      "cloud_px": 41431490,
+      "shadow_annotated": false,
+      "ambig_px": 106635,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC80180082014215LGN00/LC80180082014215LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 41850598,
+      "cloud_px": 0,
+      "shadow_annotated": false,
+      "ambig_px": 41850598,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC80210072014236LGN00/LC80210072014236LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 34425070,
+      "cloud_px": 7433379,
+      "shadow_annotated": false,
+      "ambig_px": 34425070,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC80430122014214LGN00/LC80430122014214LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 18984981,
+      "cloud_px": 22874297,
+      "shadow_annotated": false,
+      "ambig_px": 18984981,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC80650182013237LGN00/LC80650182013237LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 20348106,
+      "cloud_px": 21451788,
+      "shadow_annotated": false,
+      "ambig_px": 20348106,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81040622014066LGN00/LC81040622014066LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 1680447,
+      "cloud_px": 39855037,
+      "shadow_annotated": false,
+      "ambig_px": 1680447,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81130632014241LGN00/LC81130632014241LGN00_fixedmask.TIF",
+      "shadow_px": 1313555,
+      "clear_px": 36872221,
+      "cloud_px": 3423394,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81240462014238LGN00/LC81240462014238LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 3996598,
+      "cloud_px": 37542710,
+      "shadow_annotated": false,
+      "ambig_px": 3996598,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81620582014104LGN00/LC81620582014104LGN00_fixedmask.TIF",
+      "shadow_px": 805440,
+      "clear_px": 38083413,
+      "cloud_px": 2734113,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81660032014196LGN00/LC81660032014196LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 1993570,
+      "cloud_px": 39897895,
+      "shadow_annotated": false,
+      "ambig_px": 1993570,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81910182013240LGN00/LC81910182013240LGN00_fixedmask.TIF",
+      "shadow_px": 69286,
+      "clear_px": 41563256,
+      "cloud_px": 176465,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC82150712013152LGN00/LC82150712013152LGN00_fixedmask.TIF",
+      "shadow_px": 1024865,
+      "clear_px": 20243723,
+      "cloud_px": 17567245,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC80310202013223LGN00/LC80310202013223LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 21549413,
+      "cloud_px": 20222288,
+      "shadow_annotated": false,
+      "ambig_px": 21549413,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC80340192014167LGN00/LC80340192014167LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 41182575,
+      "cloud_px": 590446,
+      "shadow_annotated": false,
+      "ambig_px": 41182575,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81010142014189LGN00/LC81010142014189LGN00_fixedmask.TIF",
+      "shadow_px": 1628076,
+      "clear_px": 13021480,
+      "cloud_px": 27123788,
+      "shadow_annotated": true,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81020152014036LGN00/LC81020152014036LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 0,
+      "cloud_px": 41772276,
+      "shadow_annotated": false,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81030162014107LGN00/LC81030162014107LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 41768833,
+      "cloud_px": 0,
+      "shadow_annotated": false,
+      "ambig_px": 41768833,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81070152013260LGN00/LC81070152013260LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 0,
+      "cloud_px": 41802443,
+      "shadow_annotated": false,
+      "ambig_px": 0,
+      "ambig_frac_of_clear": 0.0
+    },
+    {
+      "scene": "LC81080162013171LGN00/LC81080162013171LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 910191,
+      "cloud_px": 37986347,
+      "shadow_annotated": false,
+      "ambig_px": 910191,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81080182014238LGN00/LC81080182014238LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 19603216,
+      "cloud_px": 22166275,
+      "shadow_annotated": false,
+      "ambig_px": 19603216,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81460162014168LGN00/LC81460162014168LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 41787151,
+      "cloud_px": 0,
+      "shadow_annotated": false,
+      "ambig_px": 41787151,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81500152013225LGN00/LC81500152013225LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 343202,
+      "cloud_px": 41460969,
+      "shadow_annotated": false,
+      "ambig_px": 343202,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81580172013201LGN00/LC81580172013201LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 40901600,
+      "cloud_px": 892469,
+      "shadow_annotated": false,
+      "ambig_px": 40901600,
+      "ambig_frac_of_clear": 1.0
+    },
+    {
+      "scene": "LC81750732014035LGN00/LC81750732014035LGN00_fixedmask.TIF",
+      "shadow_px": 0,
+      "clear_px": 16689302,
+      "cloud_px": 25006210,
+      "shadow_annotated": false,
+      "ambig_px": 16689302,
+      "ambig_frac_of_clear": 1.0
+    }
+  ]
+}
